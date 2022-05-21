@@ -1,0 +1,22 @@
+.star-icon {
+    cursor: pointer;
+}
+
+.star-icon polygon {
+    fill: #fff;
+}
+
+.star-icon path {
+    fill: #5a5a5a;
+}
+
+.star-icon:hover path {
+    fill: #f6b87e;
+}
+
+
+
+.favorite-star-icon polygon,
+.favorite-star-icon path {
+    fill: #f6b87e;
+}

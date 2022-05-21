@@ -1,0 +1,37 @@
+.btn-container {
+    background-color: var(--clr-neutral-300);
+    width: max-content;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+
+.btn-container .btn:focus {
+    box-shadow: none;
+}
+
+.btn-container .btn {
+    padding: 1rem;
+    margin: .3rem;
+    border-radius: 0.5rem;
+}
+
+.btn-container .btn-active {
+    background-color: var(--clr-neutral-100)
+}
+
+.btn-container .btn:hover {
+    background-color: var(--clr-neutral-200);
+    ;
+}
+
+.coin-details img {
+    margin: 2rem auto 0 auto
+}
+
+.coin-details h1 {
+    text-align: center;
+}
+
+.coin-details strong {
+    font-weight: bold;
+}

@@ -1,0 +1,8 @@
+.react-pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.page-item a {
+    padding: 0.5rem 1rem;
+}

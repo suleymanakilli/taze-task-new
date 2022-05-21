@@ -1,0 +1,96 @@
+.coin-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.coin-list table,
+.coin-list tbody,
+.coin-list td {
+    height: 100%;
+}
+
+.coin-list table th,
+.coin-list table td {
+    text-align: left;
+    padding: 1rem;
+}
+
+.coin-list table thead {
+    border-top: 1px solid var(--clr-neutral-300);
+    border-bottom: 1px solid var(--clr-neutral-300);
+    background-color: var(--clr-neutral-200);
+}
+
+.coin-list table tr:hover {
+    background-color: var(--clr-neutral-200);
+}
+
+.coin-list table .coin-name-img {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.coin-list .arrow {
+    width: 0px;
+    height: 0px;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    display: inline;
+
+}
+
+.coin-list .arrow-down {
+    border-top: 0.5rem solid var(--clr-loss);
+}
+
+.coin-list .arrow-up {
+    border-bottom: 0.5rem solid var(--clr-profit);
+}
+
+.coin-list .green {
+    color: var(--clr-profit);
+}
+
+.coin-list .red {
+    color: var(--clr-loss);
+}
+
+.coin-list .flex-align-center {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.symbol {
+    color: var(--clr-neutral-400);
+    font-size: var(--fs-200);
+}
+
+.coin-list .btn {
+    background-color: var(--clr-primary-400);
+    color: var(--clr-neutral-100);
+}
+
+.coin-list .btn:hover {
+    background-color: var(--clr-primary-500);
+    color: var(--clr-neutral-100);
+}
+
+@media only screen and (max-width:60em) {
+
+    .graphic-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:40em) {
+
+    .coin-img,
+    .symbol {
+        display: none;
+    }
+}

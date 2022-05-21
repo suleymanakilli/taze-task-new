@@ -1,0 +1,26 @@
+.search-box {
+    position: relative;
+    display: inline-block;
+    align-self: center;
+}
+
+.search-box .search-input {
+    outline: none;
+    border: 1px solid var(--clr-neutral-400);
+    padding: 1rem;
+    font-size: var(--fs-300);
+    border-radius: .5rem;
+}
+
+.search-box .search-input::placeholder {
+    color: var(--clr-neutral-500);
+    font-size: var(--fs-200);
+}
+
+.search-box svg {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
